@@ -15,6 +15,7 @@
 		16B34166259340990016903C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B34164259340990016903C /* LaunchScreen.storyboard */; };
 		16B34171259340990016903C /* ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B34170259340990016903C /* ToolsTests.swift */; };
 		16B3417C259340990016903C /* ToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3417B259340990016903C /* ToolsUITests.swift */; };
+		16B3419A259343F20016903C /* GCDKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B34199259343F20016903C /* GCDKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		16B34177259340990016903C /* ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B3417B259340990016903C /* ToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsUITests.swift; sourceTree = "<group>"; };
 		16B3417D259340990016903C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B34199259343F20016903C /* GCDKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,13 @@
 		16B34158259340980016903C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				16B34193259343420016903C /* PropertyWrapper */,
+				16B341922593432A0016903C /* Algorithms */,
+				16B341912593431D0016903C /* GCD */,
+				16B34190259343140016903C /* FunctionBuilder */,
+				16B3418F259342D70016903C /* DesignPattern   */,
+				16B3418E259342A00016903C /* Crash */,
+				16B3418D259342880016903C /* Category */,
 				16B34159259340980016903C /* AppDelegate.swift */,
 				16B3415B259340980016903C /* SceneDelegate.swift */,
 				16B3415D259340980016903C /* ViewController.swift */,
@@ -126,6 +135,88 @@
 				16B3417D259340990016903C /* Info.plist */,
 			);
 			path = ToolsUITests;
+			sourceTree = "<group>";
+		};
+		16B3418D259342880016903C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		16B3418E259342A00016903C /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		16B3418F259342D70016903C /* DesignPattern   */ = {
+			isa = PBXGroup;
+			children = (
+				16B34197259343BC0016903C /* AOP */,
+				16B34196259343A00016903C /* MVVM */,
+				16B34195259343640016903C /* StateControl */,
+				16B341942593435C0016903C /* FactoryControl */,
+			);
+			path = "DesignPattern  ";
+			sourceTree = "<group>";
+		};
+		16B34190259343140016903C /* FunctionBuilder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FunctionBuilder;
+			sourceTree = "<group>";
+		};
+		16B341912593431D0016903C /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				16B34199259343F20016903C /* GCDKit.swift */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		16B341922593432A0016903C /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		16B34193259343420016903C /* PropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PropertyWrapper;
+			sourceTree = "<group>";
+		};
+		16B341942593435C0016903C /* FactoryControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FactoryControl;
+			sourceTree = "<group>";
+		};
+		16B34195259343640016903C /* StateControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StateControl;
+			sourceTree = "<group>";
+		};
+		16B34196259343A00016903C /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		16B34197259343BC0016903C /* AOP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AOP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B3415E259340980016903C /* ViewController.swift in Sources */,
+				16B3419A259343F20016903C /* GCDKit.swift in Sources */,
 				16B3415A259340980016903C /* AppDelegate.swift in Sources */,
 				16B3415C259340980016903C /* SceneDelegate.swift in Sources */,
 			);
