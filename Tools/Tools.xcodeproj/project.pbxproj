@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1656594725943B96005D3543 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656594625943B96005D3543 /* Recorder.swift */; };
+		1656594F25945494005D3543 /* VideoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656594E25945494005D3543 /* VideoWriter.swift */; };
+		16565957259480E9005D3543 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16565956259480E9005D3543 /* Filter.swift */; };
+		1656596225949E03005D3543 /* VideoWriteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656596125949E03005D3543 /* VideoWriteManager.swift */; };
 		16B3415A259340980016903C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B34159259340980016903C /* AppDelegate.swift */; };
 		16B3415C259340980016903C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3415B259340980016903C /* SceneDelegate.swift */; };
 		16B3415E259340980016903C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3415D259340980016903C /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1656594625943B96005D3543 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		1656594E25945494005D3543 /* VideoWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWriter.swift; sourceTree = "<group>"; };
+		16565956259480E9005D3543 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		1656596125949E03005D3543 /* VideoWriteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoWriteManager.swift; sourceTree = "<group>"; };
 		16B34156259340980016903C /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B34159259340980016903C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16B3415B259340980016903C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1656594525943B7A005D3543 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				1656594625943B96005D3543 /* Recorder.swift */,
+				1656594E25945494005D3543 /* VideoWriter.swift */,
+				1656596125949E03005D3543 /* VideoWriteManager.swift */,
+				16565956259480E9005D3543 /* Filter.swift */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
 		16B3414D259340980016903C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +120,7 @@
 		16B34158259340980016903C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1656594525943B7A005D3543 /* Recorder */,
 				16B34193259343420016903C /* PropertyWrapper */,
 				16B341922593432A0016903C /* Algorithms */,
 				16B341912593431D0016903C /* GCD */,
@@ -349,10 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16565957259480E9005D3543 /* Filter.swift in Sources */,
+				1656594725943B96005D3543 /* Recorder.swift in Sources */,
 				16B3415E259340980016903C /* ViewController.swift in Sources */,
 				16B3419A259343F20016903C /* GCDKit.swift in Sources */,
 				16B3415A259340980016903C /* AppDelegate.swift in Sources */,
+				1656594F25945494005D3543 /* VideoWriter.swift in Sources */,
 				16B3415C259340980016903C /* SceneDelegate.swift in Sources */,
+				1656596225949E03005D3543 /* VideoWriteManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +555,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJM4S4U7K6;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,6 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJM4S4U7K6;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
